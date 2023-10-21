@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #0038b8;
+}
+
+header {
+    background-color: #0038b8;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.carrossel img {
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    /* O carrossel é simples. Implemente uma biblioteca JavaScript, como Slick ou OwlCarousel, para ter um carrossel funcional */
+}
+
+.sobre-nos {
+    padding: 20px;
+}
+
+.sobre-nos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sobre-nos li a {
+    color: #0038b8;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer {
+    background-color: #0038b8;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
